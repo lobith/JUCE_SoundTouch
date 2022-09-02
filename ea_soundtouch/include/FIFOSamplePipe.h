@@ -59,7 +59,7 @@ protected:
         {
             return true;
         }
-        ST_THROW_RT_ERROR("Error: Illegal number of channels");
+        // ST_THROW_RT_ERROR("Error: Illegal number of channels");
         return false;
     }
 

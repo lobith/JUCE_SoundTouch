@@ -1,5 +1,5 @@
 #if JUCE_MSVC
-#pragma warning(push 0)
+#pragma warning(push, 0)
 #endif
 
 #if JUCE_CLANG

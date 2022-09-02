@@ -129,7 +129,7 @@ void RateTransposer::putSamples(const SAMPLETYPE *samples, uint nSamples)
 // the 'set_returnBuffer_size' function.
 void RateTransposer::processSamples(const SAMPLETYPE *src, uint nSamples)
 {
-    uint count;
+    [[maybe_unused]] uint count;
 
     if (nSamples == 0) return;
 
